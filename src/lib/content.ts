@@ -74,7 +74,7 @@ export const navLinks: SectionLink[] = [
   { label: "FAQs", to: "faqs" },
 ];
 
-export const navCta: SectionLink = { label: "See the plans", to: "plans" };
+export const navCta: SectionLink = { label: "Get the free study", to: "email-gate" };
 
 export const hero = {
   /** 2000 × 1021 WebP (3120 × 1593 ratio). Subject sits right of centre; the
@@ -92,8 +92,8 @@ export const hero = {
     after: ", and why they switch.",
   },
   body: "Verified supplement buyers across India tell you what they actually take, what they paid, and what made them trust a label. Analyst-edited reports in under 7 days, from ₹8,000.",
-  cta: "See the plans",
-  note: "No contracts. No lock-ins. No assumptions dressed up as data.",
+  cta: "Get the free study",
+  note: "Free. No pitch. No card details.",
 } as const;
 
 export const studyQuestions: string[] = [

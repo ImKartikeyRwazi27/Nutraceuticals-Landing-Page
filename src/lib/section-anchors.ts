@@ -13,6 +13,7 @@ export const SECTION_IDS = [
   "top",
   "how-it-works",
   "plans",
+  "email-gate",
   "faqs",
 ] as const;
 

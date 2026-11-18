@@ -29,7 +29,7 @@ export function Hero() {
               {hero.body}
             </p>
             <div className="mt-10 flex justify-center font-black lg:justify-start">
-              <PrimaryButton to="plans">{hero.cta}</PrimaryButton>
+              <PrimaryButton to="email-gate">{hero.cta}</PrimaryButton>
             </div>
             <p className="mt-4 font-inter text-sm text-white">{hero.note}</p>
           </div>
