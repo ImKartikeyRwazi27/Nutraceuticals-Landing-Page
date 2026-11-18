@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { EmailGate } from "@/components/LandingPage/EmailGate";
 import { FAQ } from "@/components/LandingPage/FAQ";
 import { Footer } from "@/components/LandingPage/Footer";
 import { Hero } from "@/components/LandingPage/Hero";
@@ -36,6 +37,7 @@ export default function Home() {
           </div>
         </div>
         <Steps />
+        <EmailGate />
         <Pricing />
         <FAQ />
       </main>
